@@ -5,34 +5,46 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  
   <title>Landing Page</title>
 </head>
-<embed>
+<embed>  
 
- <nav>
-<div class="flex-container"></div>
-   <!-- toggle menu button -->
-   <span class="menubtn" onclick="openNav()">&#9776;</span>
-   
-   <div class="navLinks">
-     <ul>
-       <li><a href="./pages/about.html">About</a></li>
-       <li><a href="./pages/services.html">Services</a></li>
-       <li><a href="./pages/contact.html">Contact</a></li>
-       <li><a href="./pages/login.html">Login</li>
+  <div class="logo">
+    <h1>3D Menu</h1>
+  </div>
+  <div class="menu_wrapper">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a>
+          <ul>
+            <li><a href="#"><h3>Service Page One</h3></a>
+              <div>Some additional content</div>
+            </li>
+            <li><a href="#"><h3>Service Page Two</h3></a>
+              <div>Some additional content</div>
+            </li>
+            <li><a href="#"><h3>Service Page Three</h3></a>
+              <div>Some additional content</div>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#">About</a>
+          <ul>
+            <li><a href="#"><h3>About Page One</h3></a>
+              <div>Some additional content</div>
+            </li>
+            <li><a href="#"><h3>About Page Two</h3></a>
+              <div>Some additional content</div>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
 
-     </ul>
-   </div>
- </nav>
-   <!-- responsive side navbar -->
-   <div class="sideNav" id="sidenav">
-     <a href="#" class="closeBtn" onclick="closeNav()"> &#10006;</a>
-     <a href="./pages/about.html" id="aboutLink">About</a>
-     <a href="./">Services</a>
-     <a href="contact.html">Contact</a>
-  
-   </div>
-  
    <!-- Header content with banner image -->
    <div class="row">
      <div class="column1">
